@@ -1,0 +1,26 @@
+.MainHeader { display: flex; justify-content: space-between; align-items: center; margin: 0 10px;}
+.MainHeader__Title { margin: 0;}
+
+.MainNav {}
+.MainNav > ul { display: flex; margin: 0; align-items: center;}
+.MainNav__Item { list-style-type: none; margin-left: 10px; }
+
+.MainFooter {display: flex; justify-content: center;}
+
+.Banner {height: 300px; display: flex;}
+
+.historiqueForm { display: flex; flex-direction: column; width: 300px; margin-bottom: 10px;}
+.historiqueForm__Line { display: flex; }
+.historiqueForm .email { margin: 10px 0px; }
+.historiqueForm__Line > input { width: 100%; }
+
+.Error  { border: 1px solid red; background: white; padding: 5px; margin-bottom: 10px;}
+
+.RegisterForm { display: flex; flex-direction: column; width: 300px; margin-bottom: 10px; }
+.RegisterForm > input { margin: 5px 0; }
+.RegisterMsg { font-style: italic; color: blue; display: inline-block;}
+
+.successMsg { border: 1px solid rgb(31, 143, 46); background: white; padding: 5px; margin-bottom: 10px; }
+
+.AddImgForm {display: flex; flex-direction: column; width: 300px; margin-bottom: 10px;}
+.AddImgForm__Line { display: flex; }
