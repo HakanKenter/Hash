@@ -24,3 +24,5 @@
 
 .AddImgForm {display: flex; flex-direction: column; width: 300px; margin-bottom: 10px;}
 .AddImgForm__Line { display: flex; }
+
+.choice-form { list-style-type: none; }
