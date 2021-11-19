@@ -1,8 +1,10 @@
 [
-    {"username":"julien", "password":"b79fe41c3d582ca5d089c668b2b1d9e32b6b61e21681feea8276c1b146ef5b0c"},
-    {"username":"roger",  "password":"c477728aa114bbc4916114fc8132526fa2e8240972379240590e0982083d6cff"},
-    {"username":"bob",    "password":"fdbc04237f380b84f6f3494b1a84d7b971a8c85b7e384abb5591a4f04791289a"},
-    {"username":"carole", "password":"8ca6a510a469f82c6fd21f849fd8ddf0c761cf668f62f34336f7cf87ff33e6a2"},
-    {"username":"brice",  "password":"be16df9b42a5a5b7c6a01b4ca873e8e06e2fe314f49601d4acfb0de21efc5022"}
-  ]
-  
+  {
+    "username": "julien",
+    "password": "e8bdfa595b07cb39d61e235c26889527ad4b9e74a35a301b04aad38b968c7c33"
+  },
+  {
+    "username": "hakankenter",
+    "password": "285264721f3f25e97cd892345bb462a6176d800aaa71c869c5cd0bc91f0dfd5f"
+  }
+]

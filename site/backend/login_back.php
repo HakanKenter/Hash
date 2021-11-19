@@ -46,7 +46,8 @@ foreach($users as $user) {
 }
 
 if(!$is_logged) {
-  error(ERR_BADID, "$basedir/login.php");
+  var_dump($is_logged); die();
+  // error(ERR_BADID, "$basedir/login.php");
 }
 
 // Se connecter

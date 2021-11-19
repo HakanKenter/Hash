@@ -13,7 +13,6 @@ require_once('../functions.php');
 if( !array_contains($_POST, ['username', 'password', 'confirm']) ) {
   error( ERR_MISSING, "$basedir/register.php" );
 }
-
 // Les filtrer
 $username = trim(strtolower($_POST['username']));
 $password = $_POST['password'];
@@ -39,9 +38,10 @@ if( $json === false ) {
 
 // Décoder le json
 $users = json_decode($json, true);
-if( $users === null ) {
-  error(ERR_INTERNAL, "$basedir/register.php");
-}
+// if( $users === null ) {
+//   error(ERR_INTERNAL, "$basedir/register.php");
+// }
+// var_dump(hash('sha256', $pepper.'julien'.'password'));
 
 // Vérifier que login n'existe pas déjà 
 foreach($users as $user) {
